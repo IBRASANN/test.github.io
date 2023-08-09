@@ -485,9 +485,9 @@ footer small{
       position: fixed;
       bottom: 20px;
       right: 20px;
-      width: 40px;
-      height: 40px;
-      font-size: 25px;
+      width: fit-content;
+      height: auto;
+      font-size: 20px;
       border: 1px solid rgb(0, 0, 109);
       color: rgb(0, 0, 109);
       background-color: whitesmoke;
@@ -495,6 +495,10 @@ footer small{
       border-radius: .25rem;
       transition:all 200ms;
       text-align: center;
+    }
+    .topScroll > li {
+      display: block;
+      margin: auto;
     }
 
     .topScroll:hover {
