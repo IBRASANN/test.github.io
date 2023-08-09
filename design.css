@@ -494,12 +494,19 @@ footer small{
       z-index: 10;
       border-radius: .25rem;
       transition:all 200ms;
+      text-align: center;
     }
 
     .topScroll:hover {
       background-color: rgb(0, 0, 109);
       color: whitesmoke;
     }
+/*
+    .D {
+      display: none;
+    }
+*/
+
 /*******************************************/
 @media only screen
 and (min-device-width: 850px){
